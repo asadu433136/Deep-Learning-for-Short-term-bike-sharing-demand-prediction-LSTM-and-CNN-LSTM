@@ -155,7 +155,8 @@ As initially predicted, the increase or decrease in the amount of weather inform
 
 ## Conclusion
 
-** Discussion for Future Research
+
+Discussion for Future Research
 
 Despite the limitations of our computing resources, we optimized our code and model to pre-process the huge dataset (12 million rows) and train the prediction models. Our research experiment results provide solid evidence to select the proper timeframe for the deep learning model. We approach the topic using traditional statistical analysis techniques to analyze Spatiotemporal data properties to show the traditional method's limitations. Furthermore, we implement modern deep learning models to evaluate relationships of natural factors affecting the model's accuracy. Our model is able to reach 90% accuracy for some stations and achieves an average error for the whole bike-sharing system of 2 pickups for 2 hours at each station or one pickup per hour. This result is promising. Our research has shown that the CNN-LSTM model with a lag interval of 336 hours and 4 hours of weather forecast conditions gives the highest accuracy at RMSE of 2.182 for 2 hours and average R-Squared for 200 stations at 0.435. This provides a good starting point for discussion to develop a good prediction model.
 From the results of this study, future research should consider the return bikes at each station to predict the net demand at each station. In addition, the model can be developed into professional analytical applications to support existing prediction systems.
